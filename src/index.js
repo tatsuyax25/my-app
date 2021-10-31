@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 class Board extends React.Component {
-    renderSquare(i) {
-        return <Square value={i} />;
+    renderSquare(i) { // In Board's renderSquare method, change the code to pass a prop called
+        return <Square value={i} />; // value to the Square
     }
 }
 
